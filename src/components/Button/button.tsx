@@ -10,7 +10,7 @@ const Button = ({ text, classname, type, onClick }: ButtonProps) => {
     <button
       type={type}
       onClick={onClick}
-      className={`${classname} bg-blue hover:bg-[#183b8f]  font-semibold `}
+      className={`${classname} hover:bg-[#183b8f]  font-semibold `}
     >
       {text}
     </button>

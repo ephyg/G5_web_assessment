@@ -35,7 +35,7 @@ const NavigationBar = () => {
       </div>
 
       <button
-        className="md:hidden p-2 fixed top-4 right-4 z-50"
+        className=" md:hidden p-2 fixed top-4 right-4 z-50"
         onClick={toggleMobileMenu}
         aria-label="Toggle menu"
       >
@@ -77,7 +77,7 @@ const NavigationBar = () => {
 
         <Button
           text="Donate"
-          classname="text-white px-8 py-2 w-full rounded-lg text-[16px] 2xl:text-[20px] 2xl:py-3 2xl:px-10"
+          classname="bg-blue text-white px-8 py-2 w-full rounded-lg text-[16px] 2xl:text-[20px] 2xl:py-3 2xl:px-10"
         />
       </div>
     </div>

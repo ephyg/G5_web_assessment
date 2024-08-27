@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <Button
             text="Support Us"
-            classname="text-white py-2 md:py-2 rounded-lg max-w-40"
+            classname="bg-blue text-white py-2 md:py-2 rounded-lg max-w-40"
           />
         </div>
         <div className="">
