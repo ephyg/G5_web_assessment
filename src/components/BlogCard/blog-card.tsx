@@ -77,8 +77,9 @@ const BlogCard = (blog: Blog) => {
         </div>
       </div>
       <div className="flex gap-3 mt-4">
-        {tags?.map((tag) => (
+        {tags?.map((tag,index) => (
           <Button
+          key={index}
             text={tag}
             classname="bg-[#F5F5F5] hover:bg-[#dfdddd] text-gray px-5 rounded-lg py-1"
           />

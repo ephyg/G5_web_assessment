@@ -21,8 +21,8 @@ const Blog = () => {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        {data?.map((blog) => (
-          <BlogCard {...blog} />
+        {data?.map((blog, index) => (
+          <BlogCard {...blog} key={index} />
         ))}
       </div>
     </div>
